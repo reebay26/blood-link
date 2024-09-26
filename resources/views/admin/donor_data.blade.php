@@ -287,8 +287,9 @@
                             <h6 class="fw-semibold mb-0">Eligibility_document</h6>
                           </th>
                           <th class="border-bottom-0">
-                            <h6 class="fw-semibold mb-0">Action</h6>
+                            <h6 class="fw-semibold mb-0">Action/last donation</h6>
                           </th>
+                        
                       </tr>
                     </thead>
                     <tbody>
@@ -326,6 +327,10 @@
                                     <option value="approved" {{ $donor->status == 'approved' ? 'selected' : '' }}>Approved</option>
                                     <option value="rejected" {{ $donor->status == 'rejected' ? 'selected' : '' }}>Rejected</option>
                                 </select>
+                                <input type="date" name="last_donation"
+                                value="{{ $donor->last_donation ? substr($donor->last_donation, 0, 10) : '' }}"
+                                onchange="this.form.submit()">
+
                             </form>
                         </td>
                       </tr>

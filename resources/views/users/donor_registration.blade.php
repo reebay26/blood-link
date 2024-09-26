@@ -119,9 +119,20 @@
 
                 <div class="form-group">
                     <label for="type" class="form-label">Blood Type</label>
-                    <input type="text" class="form-input" placeholder="Your Blood Type *" name="type" id="type" required />
+                    <input list="bloodTypes" class="form-input" placeholder="Your Blood Type *" name="type" id="type" required />
+                    <datalist id="bloodTypes">
+                        <option value="A+"></option>
+                        <option value="A-"></option>
+                        <option value="B+"></option>
+                        <option value="B-"></option>
+                        <option value="AB+"></option>
+                        <option value="AB-"></option>
+                        <option value="O+"></option>
+                        <option value="O-"></option>
+                    </datalist>
                     <span class="form-error" id="typeError">Field is required</span>
                 </div>
+
                 @if(session('birthstatus'))
                 <script>
                  document.addEventListener('DOMContentLoaded',function(){
@@ -168,6 +179,15 @@
                 <div class="form-group">
                     <label for="eligibility_document"  class="form-label">Upload Medical Proof </label>
                     <input type="file" required class="form-input" name="eligibility_document" id="eligibility_document" accept=".pdf, .jpg, .jpeg, .png" />
+                    <small class="form-description">
+                        Acceptable documents include:
+                        <ol  >
+                            <li>Blood test report</li>
+                            <li>Health card</li>
+                            <li>Medical fitness certificate</li>
+                            <li>Doctor's prescription or medical clearance</li>
+                        </ol>
+                    </small>
                 </div>
 
                 <div class="form-group">

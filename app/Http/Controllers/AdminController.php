@@ -123,6 +123,7 @@ class AdminController extends Controller
     $donor = Donor::find($id);
     if ($donor) {
         $donor->status = $request->input('status');
+        $donor->last_donation = $request->input('last_donation');
         $donor->save();
 
         return redirect()->back()->with('success', 'Donor status updated successfully');

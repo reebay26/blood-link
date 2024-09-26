@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Donor;
 use Illuminate\Http\Request;
+use App\Mail\DonorRegistration;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 
 class DonorController extends Controller
@@ -52,6 +54,7 @@ class DonorController extends Controller
         // Flash success message
         session()->flash('status', 'Donor registered successfully.');
         session()->flash('alert-type', 'success');
+        Mail::to($request->input('email'))->send(new DonorRegistration($donor));
 
         return redirect()->back();
     }
@@ -65,6 +68,7 @@ class DonorController extends Controller
         $dob = $request->input('date');
         $lastDonation = $request->input('last_donation');
         $weight = $request->input('weight');
+
 
         $age = $currentDate->diffInYears($dob);
         if ($age < 18) {
@@ -92,6 +96,10 @@ class DonorController extends Controller
             return false;
         }
 
+
         return true;
     }
+
+
+
 }
