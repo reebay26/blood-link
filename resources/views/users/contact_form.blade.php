@@ -72,14 +72,14 @@
 
 
                             <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto"  data-widget="row.column" data-container="container" data-spacing="aala" data-bg-position="left top"><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="asas" data-animation="">
-            <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_261">ADDRESS:</p><p class="moto-text_261">&nbsp;</p><p class="moto-text_186">1234 Any Street Karachi , Pakistan&nbsp;</p></div>
+            <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_261">ADDRESS:</p><p class="moto-text_261">&nbsp;</p><p class="moto-text_186">Aptech Garden Center Karachi,Pakistan&nbsp;</p></div>
         </div>
 
 
         <div data-widget-id="wid_1555319808_ekn2e2zsn" class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small  " data-widget="divider_horizontal" data-preset="2">
             <hr class="moto-widget-divider-line" style="max-width:100%;width:60px;">
         </div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="asas" data-animation="" data-draggable-disabled="">
-            <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_261">PHONE:</p><p class="moto-text_261"><br></p><p class="moto-text_186"><a href="tel:1234567890" data-action="call" class="moto-link">+44 7938 858639</a><br></p><p class="moto-text_186"><a href="tel:1234567890" data-action="call" class="moto-link">+44 7938 858639</a></p></div>
+            <div class="moto-widget-text-content moto-widget-text-editable"><p class="moto-text_261">PHONE:</p><p class="moto-text_261"><br></p><p class="moto-text_186"><a href="tel:1234567890" data-action="call" class="moto-link">+92 3458885535</a><br></p><p class="moto-text_186"><a href="tel:1234567890" data-action="call" class="moto-link">+92 3458885535</a></p></div>
         </div><div data-widget-id="wid_1555319897_1b1jefzw8" class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-small  " data-widget="divider_horizontal" data-preset="2">
             <hr class="moto-widget-divider-line" style="max-width:100%;width:60px;">
         </div><div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-small moto-spacing-bottom-auto moto-spacing-left-small" data-widget="text" data-preset="default" data-spacing="asas" data-animation="">

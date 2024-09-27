@@ -119,11 +119,11 @@
           </ul>
           <!-- <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              
+
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                 
+
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                   <div class="message-body">
@@ -146,12 +146,12 @@
             </ul>
           </div> -->
 
-         
+
           <div class=".fixed-top-corner" style="position:fixed; top:5px; right:65px; z-index: 50; "> <x-app-layout></x-app-layout>
           </div>
         </nav>
       </header>
-      
+
       <!--  Header End -->
       <div class="container-fluid">
         <!--  Row 1 -->
@@ -225,7 +225,7 @@
     <!-- Example of an upcoming event -->
     <div class="event-card">
         <h3>Blood Donation Camp</h3>
-        <p>Date: September 25, 2024</p>
+        <p>Date: September 29, 2024</p>
         <p>Location: Community Center, City XYZ</p>
     </div>
 
@@ -236,12 +236,12 @@
 </div>
                       <div class="col-4">
                         <div class="d-flex justify-content-end">
-                         
+
                         </div>
                       </div>
                     </div>
                   </div>
-           
+
                 </div>
               </div>
             </div>
@@ -297,7 +297,7 @@
                       <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Blood Donation Available 
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Blood Donation Available
                     </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
@@ -341,7 +341,7 @@
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
                         <td class="border-bottom-0">
                             <h6 class="fw-semibold mb-1">Furqan Sheikh</h6>
-                                          
+
                         </td>
                         <td class="border-bottom-0">
                           <p class="mb-0 fw-normal">Abbas Ali</p>
@@ -354,12 +354,12 @@
                         <td class="border-bottom-0">
                           <h6 class="fw-semibold mb-0 fs-4">Monday</h6>
                         </td>
-                      </tr> 
+                      </tr>
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">2</h6></td>
                         <td class="border-bottom-0">
                             <h6 class="fw-semibold mb-1">Sami Sohail</h6>
-                                                      
+
                         </td>
                         <td class="border-bottom-0">
                           <p class="mb-0 fw-normal">Haroon Malik</p>
@@ -372,12 +372,12 @@
                         <td class="border-bottom-0">
                           <h6 class="fw-semibold mb-0 fs-4">Friday</h6>
                         </td>
-                      </tr> 
+                      </tr>
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">3</h6></td>
                         <td class="border-bottom-0">
                             <h6 class="fw-semibold mb-1">Adeeba Ejaz</h6>
-                                                     
+
                         </td>
                         <td class="border-bottom-0">
                           <p class="mb-0 fw-normal">Haleema Sohail</p>
@@ -390,12 +390,12 @@
                         <td class="border-bottom-0">
                           <h6 class="fw-semibold mb-0 fs-4">Tuesday</h6>
                         </td>
-                      </tr>      
+                      </tr>
                       <tr>
                         <td class="border-bottom-0"><h6 class="fw-semibold mb-0">4</h6></td>
                         <td class="border-bottom-0">
                             <h6 class="fw-semibold mb-1">Basit Irfan</h6>
-                                                     
+
                         </td>
                         <td class="border-bottom-0">
                           <p class="mb-0 fw-normal">Zainab Sheikh</p>
@@ -408,7 +408,7 @@
                         <td class="border-bottom-0">
                           <h6 class="fw-semibold mb-0 fs-4">Saturday</h6>
                         </td>
-                      </tr>                       
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -417,10 +417,10 @@
           </div>
         </div>
 
-          
-       
 
-        
+
+
+
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
             <div class="card overflow-hidden rounded-2">
@@ -503,8 +503,8 @@
             </div>
           </div>
         </div> -->
-        
-        
+
+
       </div>
     </div>
   </div>
