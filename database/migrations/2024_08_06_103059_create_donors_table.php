@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('donors', function (Blueprint $table) {
             $table->id();
             $table->string('name', 40); // Updated length to accommodate longer names
-            $table->string('email', 30)->unique(); // Updated length and added unique constraint
+            $table->string('email', 30); // Updated length and added unique constraint
             $table->string('blood_type', 10); // Updated column name and length
             $table->date('date_of_birth'); // Updated column name and removed length
             $table->date('last_donation')->nullable(); // Removed length

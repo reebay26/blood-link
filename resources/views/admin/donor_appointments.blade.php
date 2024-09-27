@@ -118,11 +118,11 @@
           </ul>
           <!-- <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              
+
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                 
+
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                   <div class="message-body">
@@ -145,12 +145,12 @@
             </ul>
           </div> -->
 
-         
+
           <div class=".fixed-top-corner" style="position:fixed; top:15px; right:65px; z-index: 50; "> <x-app-layout></x-app-layout>
           </div>
         </nav>
       </header>
-      
+
       <!--  Header End -->
       <div class="container-fluid">
         <!--  Row 1 -->
@@ -213,7 +213,7 @@
                   </div>
                 </div>
               </div>
-        
+
 
               <div class="col-lg-12">
                 <!-- Monthly Earnings -->
@@ -226,7 +226,7 @@
     <!-- Example of an upcoming event -->
     <div class="event-card">
         <h3>Blood Donation Camp</h3>
-        <p>Date: September 25, 2024</p>
+        <p>Date: September 29, 2024</p>
         <p>Location: Community Center, City XYZ</p>
     </div>
 
@@ -237,18 +237,18 @@
 </div>
                       <div class="col-4">
                         <div class="d-flex justify-content-end">
-                         
+
                         </div>
                       </div>
                     </div>
                   </div>
-           
+
                 </div>
               </div>
             </div>
           </div>
         </div>
- 
+
           <div class="col-lg-8 d-flex align-itemstext-nowrap">
             <div class="w-100">
               <div class=" p-4">
@@ -269,7 +269,7 @@
                         <th class="border-bottom-0">
                           <h6 class="fw-semibold mb-0">Gender</h6>
                         </th>
-                     
+
                         <th class="border-bottom-0">
                           <h6 class="fw-semibold mb-0">Date</h6>
                         </th>
@@ -282,13 +282,13 @@
                         <th class="border-bottom-0">
                           <h6 class="fw-semibold mb-0">Donated Before</h6>
                         </th>
-                        
-                        
-                        
-                     
+
+
+
+
                     </thead>
                     <tbody>
-                        @foreach( $appointmentdetails as $details ) 
+                        @foreach( $appointmentdetails as $details )
                       <tr>
                         <td class="border-bottom-0 mb-0 fw-bold">{{$details->name}}</td>
                         <td class="border-bottom-0 mb-0 fw-bold">{{$details->email}}</td>
@@ -298,12 +298,12 @@
                         <td class="border-bottom-0 mb-0 fw-bold">{{$details->time}}</td>
                         <td class="border-bottom-0 mb-0 fw-bold">{{$details->hospital}}</td>
                         <td class="border-bottom-0 mb-0 fw-bold">{{$details->donated}}</td>
-                       
-                        
-                      
-                 
-                      </tr>  
-                      @endforeach                  
+
+
+
+
+                      </tr>
+                      @endforeach
                     </tbody>
                   </table>
                 </div>
@@ -312,10 +312,10 @@
           </div>
         </div>
 
-          
-       
 
-        
+
+
+
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
             <div class="card overflow-hidden rounded-2">
@@ -398,8 +398,8 @@
             </div>
           </div>
         </div> -->
-        
-        
+
+
       </div>
     </div>
   </div>

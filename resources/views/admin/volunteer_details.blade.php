@@ -226,7 +226,7 @@
     <!-- Example of an upcoming event -->
     <div class="event-card">
         <h3>Blood Donation Camp</h3>
-        <p>Date: September 25, 2024</p>
+        <p>Date: September 29, 2024</p>
         <p>Location: Community Center, City XYZ</p>
     </div>
 

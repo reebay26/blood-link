@@ -75,11 +75,11 @@
           </ul>
           <!-- <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              
+
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                 
+
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                   <div class="message-body">
@@ -102,12 +102,12 @@
             </ul>
           </div> -->
 
-         
+
           <div class=".fixed-top-corner" style="position:fixed; top:15px; right:65px; z-index: 50; "> <x-app-layout></x-app-layout>
           </div>
         </nav>
       </header>
-      
+
       <!--  Header End -->
       <div class="container-fluid">
         <!--  Row 1 -->
@@ -139,7 +139,7 @@
               </div>
             </div>
           </div>
-          
+
          <div class="col-lg-4">
             <div class="row">
               <div class="col-lg-12">
@@ -193,7 +193,7 @@
     </div>
 </div>
 
-        
+
 <div class="col-lg-12">
                 <!-- Monthly Earnings -->
                 <div class="card">
@@ -205,7 +205,7 @@
     <!-- Example of an upcoming event -->
     <div class="event-card">
         <h3>Blood Donation Camp</h3>
-        <p>Date: September 25, 2024</p>
+        <p>Date: September 29, 2024</p>
         <p>Location: Community Center, City XYZ</p>
     </div>
 
@@ -216,12 +216,12 @@
 </div>
                       <div class="col-4">
                         <div class="d-flex justify-content-end">
-                         
+
                         </div>
                       </div>
                     </div>
                   </div>
-           
+
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@
                 <div class="mb-4">
                   <h5 class="card-title fw-semibold">Recent Donations</h5>
                 </div>
-         
+
                 <ul class="timeline-widget mb-0 position-relative mb-n5">
                   <li class="timeline-item d-flex position-relative overflow-hidden">
                     <div class="timeline-time text-dark flex-shrink-0 text-end">09:30</div>
@@ -278,7 +278,7 @@
                       <span class="timeline-badge border-2 border border-danger flex-shrink-0 my-8"></span>
                       <span class="timeline-badge-border d-block flex-shrink-0"></span>
                     </div>
-                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Blood Donation Available 
+                    <div class="timeline-desc fs-3 text-dark mt-n1 fw-semibold">Blood Donation Available
                     </div>
                   </li>
                   <li class="timeline-item d-flex position-relative overflow-hidden">
@@ -316,10 +316,10 @@
 </div>
 
 
-          
-       
 
-        
+
+
+
         <!-- <div class="row">
           <div class="col-sm-6 col-xl-3">
             <div class="card overflow-hidden rounded-2">
@@ -402,8 +402,8 @@
             </div>
           </div>
         </div> -->
-        
-        
+
+
       </div>
     </div>
   </div>
